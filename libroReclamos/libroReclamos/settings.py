@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-z%$-@v+(9@t7p7)9y_six&)2mh2$d_nv%56be))v$dg601nny6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['13.223.185.10']
+ALLOWED_HOSTS = ['98.81.8.32']
 
 
 # Application definition
@@ -84,7 +84,7 @@ DATABASES = {
         'NAME':'reclamosdb',
         'USER': 'admin',
         'PASSWORD': 'admin123',
-        'HOST': 'database-1.cndvjloxbiyb.us-east-1.rds.amazonaws.com',
+        'HOST': 'database-1.c0vn7hgczd9r.us-east-1.rds.amazonaws.com',
         'PORT':3306,
         'OPTIONS': {
             'charset': 'utf8mb4',
